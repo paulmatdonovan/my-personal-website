@@ -1,3 +1,94 @@
+header {
+    font-style: Montserrat;
+}
+
+header h2 {
+    letter-spacing: 5px;
+    line-height: 25px;
+    color: antiquewhite;
+}
+
+#about {
+    display: inline-block;
+}
+
 body {
-    background: #017897;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url("Images/pexels-pixabay-531880.jpg");
+    /* background-repeat: no-repeat; */
+}
+
+.topnav {
+    background-color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    margin: auto;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    max-width: 800;
+
+    font-size: 18px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(120, 120, 234);
+    color: white;
+}
+
+body {
+    text-align: center;
+    max-width: 1200px;
+    background-color: rgb(112, 148, 180);
+}
+
+.center {
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgb(101, 90, 181);
+    width: 60%;
+
+    padding: 20px;
+}
+
+h1 {
+    font-size: 57px;
+    color: aliceblue;
+    font-family: 'Montserrat';
+}
+
+.images {
+    margin-top: 20px;
+    background-color: darkslategray;
+    max-width: 800px;
+    margin: auto;
+}
+
+figcaption {
+    color: rgb(244, 246, 248);
+    text-align: center;
+    font-size: 18;
+    padding: 10px;
 }
