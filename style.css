@@ -1,5 +1,6 @@
 header {
     font-style: Montserrat;
+
 }
 
 header h2 {
@@ -8,9 +9,7 @@ header h2 {
     color: antiquewhite;
 }
 
-#about {
-    display: inline-block;
-}
+
 
 body {
     width: 100%;
@@ -28,7 +27,7 @@ body {
     background-color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow: hidden;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -40,7 +39,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    max-width: 800;
+    max-width: 900px;
 
     font-size: 18px;
 
@@ -68,7 +67,8 @@ body {
     margin: auto;
     margin-bottom: 20px;
     background-color: rgb(101, 90, 181);
-    width: 60%;
+
+    max-width: 1000px;
 
     padding: 20px;
 }
@@ -82,7 +82,7 @@ h1 {
 .images {
     margin-top: 20px;
     background-color: darkslategray;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -90,5 +90,23 @@ figcaption {
     color: rgb(244, 246, 248);
     text-align: center;
     font-size: 18;
+    padding: 19px;
+}
+
+#about {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: rgb(26, 56, 56);
+    max-width: 900px;
+    margin: auto;
     padding: 10px;
+
+}
+
+#about h2 {
+    color: azure;
+    font-size: 23px;
+    padding: 20px;
+    margin-top: 15px;
+    letter-spacing: 5px;
 }
